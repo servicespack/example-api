@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
+    "build": "tsc .",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "reinstall": "rimraf node_modules && npm ci",

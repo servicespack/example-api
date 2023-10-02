@@ -2,7 +2,7 @@
   "name": "@servicespack/example-api",
   "version": "1.0.0",
   "description": "An incredible project made in Node.js",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "lint": "eslint .",

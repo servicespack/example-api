@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "An incredible project made in Node.js",
   "main": "src/index.js",
-  "type": "module",
   "scripts": {
     "build": "tsc",
     "lint": "eslint .",

@@ -8,6 +8,7 @@
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "reinstall": "rimraf node_modules && npm ci",
+    "start": "node -r dotenv/config .",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "test:cov": "npm test -- --coverage",
     "test:watch": "npm test -- --watch"
